@@ -6,10 +6,9 @@ import './styles/style.css'
 
 // import scripts
 import 'jquery-touchswipe'
-import './js/jqBootstrapValidation'
+import 'jq-bootstrap-validation/src/jqBootstrapValidation'
 import './js/formHandler'
 import './js/blocs'
-
 
 // import bootstrap components
 import 'bootstrap/js/alert'
