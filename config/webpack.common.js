@@ -38,14 +38,14 @@ module.exports = {
     // Generates deprecation warning: https://github.com/jantimon/html-webpack-plugin/issues/1501
     new HtmlWebpackPlugin({
       title: 'Index',
-      favicon: paths.src + '/images/favicon.png',
+      favicon: paths.src + '/images/favicon.jpg',
       template: paths.html + '/index.html', // template file
       filename: 'index.html', // output file
       scriptLoading: 'defer'
     }),
     new HtmlWebpackPlugin({
       title: 'Contact',
-      favicon: paths.src + '/images/favicon.png',
+      favicon: paths.src + '/images/favicon.jpg',
       template: paths.html + '/contact.html', // template file
       filename: 'contact.html', // output file
       scriptLoading: 'defer'
