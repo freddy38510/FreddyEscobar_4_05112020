@@ -1,5 +1,6 @@
 const paths = require('./paths')
 
+const { ProvidePlugin } = require('webpack')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -49,6 +50,11 @@ module.exports = {
       filename: 'contact.html', // output file
       scriptLoading: 'defer'
     }),
+    new ProvidePlugin({
+        $: 'jquery',
+        jQuery: 'jquery',
+        'window.jQuery': 'jquery'
+     })
   ],
 
   // Determine how modules within the project are treated
