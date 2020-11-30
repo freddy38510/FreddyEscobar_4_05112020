@@ -53,15 +53,19 @@ module.exports = {
       favicon: paths.src + '/images/favicon.png',
       template: paths.html + '/index.html', // template file
       filename: 'index.html', // output file
-      scriptLoading: 'defer'
+      scriptLoading: 'defer',
+      inject: true
     }),
+
     new HtmlWebpackPlugin({
       title: 'Contact',
       favicon: paths.src + '/images/favicon.png',
       template: paths.html + '/contact.html', // template file
       filename: 'contact.html', // output file
-      scriptLoading: 'defer'
+      scriptLoading: 'defer',
+      inject: true
     }),
+
     new ProvidePlugin({
         $: 'jquery',
         jQuery: 'jquery',
