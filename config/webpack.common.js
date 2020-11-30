@@ -87,8 +87,8 @@ module.exports = {
         generator: { filename: 'fonts/[hash][ext][query]' }
       },
 
-      // Fonts and SVGs: Inline files
-      {test: /\.(woff(2)?|eot|ttf|otf|svg|)$/, type: 'asset/inline'},
+      // SVGs: Inline svg files
+      {test: /\.(svg|)$/, type: 'asset/inline'},
     ],
   },
 }
