@@ -34,7 +34,8 @@
     "url": "git@github.com:freddy38510/FreddyEscobar_4_05112020"
   },
   "dependencies": {
-    "bootstrap-sass": "^3.4.1",
+    "bootstrap": "3.4.1",
+    "bootstrap-sass": "3.4.1",
     "jquery": "2.1.0",
     "jquery-touchswipe": "1.6.19"
   }
