@@ -16,6 +16,19 @@ module.exports = {
     publicPath: '/',
   },
 
+  // Extract third-party libraries to vendor bundle
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          chunks: 'all',
+        },
+      },
+    },
+  },
+
   // Customize the webpack build process
   plugins: [
     // Removes/cleans build folders and unused assets when rebuilding
