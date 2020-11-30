@@ -74,7 +74,18 @@ module.exports = {
       },
 
       // Images: Copy image files to build folder
-      {test: /\.(?:ico|gif|png|jpg|jpeg)$/i, type: 'asset/resource'},
+      {
+        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+        type: 'asset/resource',
+        generator: { filename: 'images/[hash][ext][query]' }
+      },
+
+      // Fonts: Copy fonts files to build folder
+      {
+        test: /\.(woff(2)?|eot|ttf|otf|)$/,
+        type: 'asset/resource',
+        generator: { filename: 'fonts/[hash][ext][query]' }
+      },
 
       // Fonts and SVGs: Inline files
       {test: /\.(woff(2)?|eot|ttf|otf|svg|)$/, type: 'asset/inline'},
