@@ -4,6 +4,7 @@ const { ProvidePlugin } = require('webpack')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin')
 
 module.exports = {
   // Where webpack looks to start building the bundle
@@ -64,6 +65,36 @@ module.exports = {
       filename: 'contact.html', // output file
       scriptLoading: 'defer',
       inject: true
+    }),
+
+     new ImageMinimizerPlugin({
+      minimizerOptions: {
+        // Lossless optimization with custom option
+        // Feel free to experiment with options for better result for you
+        plugins: [
+          ['gifsicle', { interlaced: true }],
+          ['mozjpeg', { quality: 50 }],
+          ['pngquant'],
+          [
+            'svgo',
+            {
+              plugins: [
+                {
+                  removeViewBox: false
+                },
+                {
+                  removeDimensions: true
+                },
+                {
+                  removeAttrs: {
+                    attrs: 'fill'
+                  }
+                }
+              ],
+            },
+          ],
+        ],
+      },
     }),
 
     new ProvidePlugin({
