@@ -476,11 +476,13 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    display: inline-flex;
+    font-size: 28px!important;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    display: inline-flex;
+    font-size: 58px!important;
 }
 
 .sm-shadow {
@@ -733,6 +735,7 @@ h4 {
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
+    display: inline-flex;
 }
 
 .white {
@@ -1035,4 +1038,13 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+svg {
+    height: 1em;
+    fill: currentColor;
+}
+
+.sm-shadow svg {
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
 }

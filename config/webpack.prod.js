@@ -34,8 +34,16 @@ module.exports = merge(common, {
             {
               plugins: [
                 {
-                  removeViewBox: false,
+                  removeViewBox: false
                 },
+                {
+                  removeDimensions: true
+                },
+                {
+                  removeAttrs: {
+                    attrs: 'fill'
+                  }
+                }
               ],
             },
           ],

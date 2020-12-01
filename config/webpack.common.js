@@ -114,8 +114,10 @@ module.exports = {
        }
       },
 
-      // SVGs: Inline svg files
-      {test: /\.(svg|)$/, type: 'asset/inline'},
+      {
+        test: /\.(svg|)$/,
+        use: 'raw-loader',
+      },
     ],
   },
 }
