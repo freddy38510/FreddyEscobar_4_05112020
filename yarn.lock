@@ -1709,15 +1709,15 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-bootstrap-sass@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/bootstrap-sass/-/bootstrap-sass-3.4.1.tgz#6843c73b1c258a0ac5cb2cc6f6f5285b664a8e9a"
-  integrity sha512-p5rxsK/IyEDQm2CwiHxxUi0MZZtvVFbhWmyMOt4lLkA4bujDA1TGoKT0i1FKIWiugAdP+kK8T5KMDFIKQCLYIA==
+bootstrap-sass@3.3.5:
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/bootstrap-sass/-/bootstrap-sass-3.3.5.tgz#89f213751ee01cde0dc1f63a51e9b3521dd20ebc"
+  integrity sha1-ifITdR7gHN4NwfY6UemzUh3SDrw=
 
-bootstrap@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.4.1.tgz#c3a347d419e289ad11f4033e3c4132b87c081d72"
-  integrity sha512-yN5oZVmRCwe5aKwzRj6736nSmKDX7pLYwsXiCj/EYmo16hODaBiT4En5btW/jhBF/seV+XMx3aYwukYC3A49DA==
+bootstrap@3.3.5:
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.3.5.tgz#1777ab79299b128d87dce7cbd86fdc46ac69c0b1"
+  integrity sha1-F3ereSmbEo2H3OfL2G/cRqxpwLE=
 
 brace-expansion@^1.1.7:
   version "1.1.11"
