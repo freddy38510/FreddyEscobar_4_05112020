@@ -6,6 +6,31 @@ const common = require('./webpack.common.js')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const PurgecssPlugin = require('purgecss-webpack-plugin')
+const CriticalCssPlugin = require('critical-css-webpack-plugin')
+
+const criticalCssPluginOptions = {
+  base: paths.build,
+  minify: true,
+  extract: true,
+  include: ['svg', '.icon-lg', '.bg-repeat'],
+  dimensions: [
+    {
+      height: 800,
+      width: 350,
+    },
+    {
+      height: 863,
+      width: 900,
+    },
+  ],
+  concurrency: 4,
+  penthouse: {
+    blockJSRequests: false
+  },
+  inline: {
+    preload: true
+  },
+}
 
 module.exports = merge(common, {
   mode: 'production',
@@ -26,6 +51,16 @@ module.exports = merge(common, {
       paths: glob.sync([paths.html, `${paths.src}/index.js`, `${paths.src}/**/*`, 'node_modules/bootstrap/js/**/*'],  { nodir: true }),
       rejected: true
     }),
+    new CriticalCssPlugin({
+      ...criticalCssPluginOptions,
+      src: 'index.html',
+      target: 'index.html'
+    }),
+    new CriticalCssPlugin({
+      ...criticalCssPluginOptions,
+      src: 'contact.html',
+      target: 'contact.html'
+    })
   ],
   module: {
     rules: [
