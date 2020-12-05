@@ -6,7 +6,7 @@ import './styles/style.css'
 import 'jquery-touchswipe'
 import 'jq-bootstrap-validation/src/jqBootstrapValidation'
 import 'lazysizes'
-import 'lazysizes/plugins/unveilhooks/ls.unveilhooks'
+import 'lazysizes/plugins/bgset/ls.bgset'
 import './js/formHandler'
 import './js/blocs'
 

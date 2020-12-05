@@ -35,6 +35,12 @@ module.exports = {
     // Removes/cleans build folders and unused assets when rebuilding
     new CleanWebpackPlugin(),
 
+    new ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      'window.jQuery': 'jquery'
+    }),
+
     // Copies files from target to destination folder
     new CopyWebpackPlugin({
       patterns: [
@@ -48,7 +54,6 @@ module.exports = {
     }),
 
     // Generates an HTML file from a template
-    // Generates deprecation warning: https://github.com/jantimon/html-webpack-plugin/issues/1501
     new HtmlWebpackPlugin({
       title: 'Index',
       favicon: paths.src + '/images/favicon.png',
@@ -67,14 +72,12 @@ module.exports = {
       inject: true
     }),
 
-     new ImageMinimizerPlugin({
+    new ImageMinimizerPlugin({
       minimizerOptions: {
-        // Lossless optimization with custom option
-        // Feel free to experiment with options for better result for you
         plugins: [
           ['gifsicle', { interlaced: true }],
-          ['mozjpeg', { quality: 50 }],
-          ['pngquant'],
+          // ['mozjpeg', { quality: 50 }],
+          ['pngquant', { speed: 1, quality: [0.1, 0.5] }],
           [
             'svgo',
             {
@@ -96,12 +99,6 @@ module.exports = {
         ],
       },
     }),
-
-    new ProvidePlugin({
-        $: 'jquery',
-        jQuery: 'jquery',
-        'window.jQuery': 'jquery'
-     })
   ],
 
   // Determine how modules within the project are treated
@@ -121,16 +118,37 @@ module.exports = {
         ],
       },
 
-      // Images: Copy image files to build folder
+      // Images: Copy ico/gif/png image files to build folder
       {
-        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+        test: /\.(?:ico|gif|png)$/i,
         type: 'asset',
         generator: { filename: 'images/[name][ext][query]' },
         parser: {
-         dataUrlCondition: {
-           maxSize: 1 * 1024 // 1kb
-         }
-       }
+          dataUrlCondition: {
+            maxSize: 1 * 1024 // 1kb
+          }
+        },
+      },
+
+      // Images: Generate responsive images
+      {
+        test: /\.(?:jpg|jpeg)$/i,
+        use: [
+          {
+            loader:  '@flexis/srcset-loader',
+            options: {
+              rules: [{
+                  width:  [1, 1200, 992, 768, 480],
+                  format: ['jpg']
+              }],
+              optimization: {
+                jpg: require('imagemin-mozjpeg')({ quality: 80 })
+              },
+              name: 'images/[name][postfix].[ext][query]',
+              scalingUp: false,
+            }
+          },
+        ]
       },
 
       // Fonts: Copy fonts files to build folder
@@ -145,6 +163,7 @@ module.exports = {
        }
       },
 
+      // Icons: import svgs content
       {
         test: /\.(svg|)$/,
         use: 'raw-loader',
