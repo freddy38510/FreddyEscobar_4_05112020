@@ -4,7 +4,7 @@ import './styles/style.css'
 
 // import scripts
 import 'jquery-touchswipe'
-import 'jq-bootstrap-validation/src/jqBootstrapValidation'
+import './js/jqBootstrapValidation'
 import 'lazysizes'
 import 'lazysizes/plugins/bgset/ls.bgset'
 import './js/formHandler'
