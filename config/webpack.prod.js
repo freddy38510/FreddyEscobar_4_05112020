@@ -13,12 +13,24 @@ const criticalCssPluginOptions = {
   include: ['svg', '.icon-lg', '.bg-repeat', '.bg-banniere', '.container'],
   dimensions: [
     {
-      height: 800,
-      width: 350,
+      height: 863,
+      width: 320,
     },
     {
       height: 863,
-      width: 900,
+      width: 480,
+    },
+    {
+      height: 863,
+      width: 768,
+    },
+    {
+      height: 863,
+      width: 992,
+    },
+    {
+      height: 863,
+      width: 1200,
     },
   ],
   concurrency: 4,
