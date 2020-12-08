@@ -1,6 +1,5 @@
 // import styles
-import './styles/bootstrap.scss'
-import './styles/style.css'
+import './styles/index.scss'
 
 // import scripts
 import 'jquery-touchswipe'
