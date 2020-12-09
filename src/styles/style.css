@@ -478,6 +478,7 @@ button {
 .icon-md {
     display: inline-flex;
     font-size: 28px!important;
+    color: #424242!important;
 }
 
 .icon-lg {
@@ -653,7 +654,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #424242!important;
 }
 
 .container {
@@ -758,7 +759,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(49, 43, 28, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -780,17 +781,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f8b89b!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .ltc-white {
