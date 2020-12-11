@@ -473,7 +473,7 @@ nav .caret {
 .icon-md {
     display: inline-flex;
     font-size: 28px!important;
-    color: #424242!important;
+    color: #424242;
 }
 
 .icon-lg {
@@ -714,7 +714,12 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+    margin-top: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 h2 {
