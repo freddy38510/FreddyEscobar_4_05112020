@@ -9,7 +9,7 @@ const CriticalCssPlugin = require('critical-css-webpack-plugin')
 const criticalCssPluginOptions = {
   base: paths.build,
   minify: true,
-  extract: false,
+  extract: true,
   include: ['svg', '.icon-lg', '.bg-repeat', '.bg-banniere', '.container'],
   dimensions: [
     {
