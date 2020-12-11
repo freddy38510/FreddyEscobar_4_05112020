@@ -55,3 +55,21 @@ address {
 .bloc-lg {
     padding: 40px 0;
 }
+
+.next-lightbox, .prev-lightbox, .close-lightbox {
+    background-color: #000;
+    color: #fff !important;
+    opacity: .4;
+    transition: opacity .2s ease-in-out, transform .2s ease-in-out;
+
+    &:hover, &:focus  {
+        color: #fff !important;
+        transform: scale(1.1);
+        opacity: .5;
+    }
+
+    &:focus {
+        outline-color: #F3976C;
+        outline-offset: unset;
+    }
+}
