@@ -26,6 +26,7 @@
     color: #fff !important;
     opacity: .4;
     transition: opacity .2s ease-in-out, transform .2s ease-in-out;
+    overflow: hidden;
 
     &:hover, &:focus  {
         color: #fff !important;
@@ -36,5 +37,9 @@
     &:focus {
         outline-color: #F3976C;
         outline-offset: unset;
+    }
+
+    svg {
+        pointer-events: none;
     }
 }
