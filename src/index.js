@@ -19,6 +19,20 @@ import 'bootstrap/js/modal'
 import 'bootstrap/js/tooltip'
 import 'bootstrap/js/transition'
 
+// Only continue if polyfills are actually needed
+if (!('scrollBehavior' in document.documentElement.style)) {
+
+  // Wait until the Polyfills are loaded
+  Promise.all([
+    import('smoothscroll-polyfill'),
+    import('smoothscroll-anchor-polyfill')
+  ])
+  // then use the modules however you want
+  .then(([smoothscrollPolyfill]) => {
+    // (Unlike this package, smoothscroll-polyfill needs to be actively invoked: )
+    smoothscrollPolyfill.polyfill();
+  });
+}
 
 function scrollToTop() {
     document.body.scrollTop = 0; // For Safari

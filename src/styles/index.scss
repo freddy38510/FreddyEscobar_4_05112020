@@ -2,10 +2,19 @@
 @import './bootstrap';
 @import './style';
 
-#bloc-6 {
-    h1, p {
-        color: #0d0d0d !important;
-    }
+html {
+    /* CSS custom property for the polyfill */
+    --scroll-behavior: smooth;
+
+    /* Normal CSS property for browsers with native support */
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    --scroll-behavior: auto;
+    scroll-behavior: auto;
+  }
 }
 
 address {
