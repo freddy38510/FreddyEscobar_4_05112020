@@ -516,11 +516,27 @@ nav .caret {
     right: 20px;
     opacity: 0;
     z-index: 500;
-    transition: all .3s ease-in-out;
+    transition: opacity .3s ease-in-out, transform .3s;
+    background-color: rgba(0, 0, 0, .7);
+    font-size: 14px;
+}
+
+.scrollToTop * {
+    pointer-events: none;
+}
+
+.scrollToTop:hover {
+    transform: scale(1.1);
+}
+
+.scrollToTop:hover, .scrollToTop:focus {
+    background-color: rgba(0, 0, 0, .7);
 }
 
 .scrollToTop span {
     margin-top: 6px;
+    display: inline-flex;
+    color: #fff;
 }
 
 .showScrollTop {

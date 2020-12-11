@@ -18,3 +18,18 @@ import 'bootstrap/js/dropdown'
 import 'bootstrap/js/modal'
 import 'bootstrap/js/tooltip'
 import 'bootstrap/js/transition'
+
+
+function scrollToTop() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+document.addEventListener('click', (e) => {
+    const scrollButton = document.getElementsByClassName('scrollToTop')[0]
+
+    if(e.target === scrollButton) {
+        scrollButton.blur()
+        scrollToTop()
+    }
+})
