@@ -31,22 +31,22 @@ function setUpLightBox() {
 }
 
 function addKeyBoardSupport() {
-    $(window).keydown(function(t) {
-        37 == t.which ? $(".prev-lightbox").is(":visible") && $(".prev-lightbox").click() : 39 == t.which && $(".next-lightbox").is(":visible") && $(".next-lightbox").click()
+    $(window).on('keydown', function(t) {
+        37 == t.which ? $(".prev-lightbox").is(":visible") && $(".prev-lightbox").trigger('click') : 39 == t.which && $(".next-lightbox").is(":visible") && $(".next-lightbox").trigger('click')
     })
 }
 
 function addLightBoxSwipeSupport() {
     $("#lightbox-image").length && $("#lightbox-image").swipe({
-        swipeLeft: function(t, e, i, a, o) {
-            $(".next-lightbox").is(":visible") && $(".next-lightbox").click()
+        swipeLeft: function() {
+            $(".next-lightbox").is(":visible") && $(".next-lightbox").trigger('click')
         },
         swipeRight: function() {
-            $(".prev-lightbox").is(":visible") && $(".prev-lightbox").click()
+            $(".prev-lightbox").is(":visible") && $(".prev-lightbox").trigger('click')
         },
         threshold: 0
     })
 }
-$(document).ready(function() {
+$(function() {
     setUpLightBox(), addKeyBoardSupport()
 })
