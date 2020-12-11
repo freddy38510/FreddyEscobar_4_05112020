@@ -63,15 +63,6 @@ module.exports = {
       inject: true
     }),
 
-    new HtmlWebpackPlugin({
-      title: 'Contact',
-      favicon: paths.src + '/images/favicon.png',
-      template: paths.html + '/contact.html', // template file
-      filename: 'contact.html', // output file
-      scriptLoading: 'defer',
-      inject: true
-    }),
-
     new ImageMinimizerPlugin({
       minimizerOptions: {
         plugins: [

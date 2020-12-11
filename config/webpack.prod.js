@@ -61,11 +61,6 @@ module.exports = merge(common, {
       ...criticalCssPluginOptions,
       src: 'index.html',
       target: 'index.html'
-    }),
-    new CriticalCssPlugin({
-      ...criticalCssPluginOptions,
-      src: 'contact.html',
-      target: 'contact.html'
     })
   ],
   module: {
