@@ -31,6 +31,8 @@ function setUpLightBox() {
         } else $("#lightbox-image").attr("src", o).show(), $(".lightbox-caption").html(a.attr("data-caption")).show(), $("#lightbox-video-container").hide();
         targetLightbox = a, $(".next-lightbox, .prev-lightbox").hide(), "no-gallery-set" == e ? ($("a[data-lightbox]").index(a) != $("a[data-lightbox]").length - 1 && $(".next-lightbox").show(), $("a[data-lightbox]").index(a) > 0 && $(".prev-lightbox").show()) : ($('a[data-gallery-id="' + e + '"]').index(a) != $('a[data-gallery-id="' + e + '"]').length - 1 && $(".next-lightbox").show(), $('a[data-gallery-id="' + e + '"]').index(a) > 0 && $(".prev-lightbox").show())
     })
+
+    addKeyBoardSupport()
 }
 
 function addKeyBoardSupport() {
@@ -50,6 +52,11 @@ function addLightBoxSwipeSupport() {
         threshold: 0
     })
 }
-$(function() {
-    setUpLightBox(), addKeyBoardSupport()
-})
+
+function scrollToTopView() {
+    $(window).scrollTop() > $(window).height() / 3 ? $(".scrollToTop").hasClass("showScrollTop") || $(".scrollToTop").addClass("showScrollTop") : $(".scrollToTop").removeClass("showScrollTop")
+}
+
+window.addEventListener('load', setUpLightBox)
+
+window.addEventListener('scroll', scrollToTopView)
