@@ -12,7 +12,9 @@ module.exports = ({ env }) => ({
           content: [
             `${paths.html}/*.html`,
             `${paths.src}/**/*.js`,
-            "node_modules/bootstrap/js/**/*.js",
+            "node_modules/bootstrap/js/collapse.js",
+            "node_modules/bootstrap/js/modal.js",
+            "node_modules/bootstrap/js/transition.js"
           ],
           rejected: true,
         })
