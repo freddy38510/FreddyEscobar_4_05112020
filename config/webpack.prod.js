@@ -37,9 +37,7 @@ const criticalCssPluginOptions = {
   penthouse: {
     blockJSRequests: false
   },
-  inline: {
-    preload: true
-  },
+  inline: true,
 }
 
 module.exports = merge(common, {
