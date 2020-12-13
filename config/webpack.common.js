@@ -92,6 +92,11 @@ module.exports = {
                   removeAttrs: {
                     attrs: 'fill'
                   }
+                },
+                {
+                  addAttributesToSVGElement: {
+                    attributes: [{ 'aria-hidden': true }]
+                  }
                 }
               ],
             },
