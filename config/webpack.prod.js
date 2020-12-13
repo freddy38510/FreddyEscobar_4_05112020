@@ -10,7 +10,7 @@ const criticalCssPluginOptions = {
   base: paths.build,
   minify: true,
   extract: true,
-  include: ['svg', '.icon-lg', '.bg-repeat', '.bg-banniere', '.container'],
+  include: ['svg', '.icon-lg', '.bg-repeat', '.bg-banniere', '.container', '.med-width-whitespace'],
   dimensions: [
     {
       height: 863,
