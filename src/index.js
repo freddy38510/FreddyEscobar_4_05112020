@@ -10,7 +10,7 @@ import './js/formHandler'
 import './js/blocs'
 
 // import bootstrap components
-// import 'bootstrap/js/alert'
+import 'bootstrap/js/alert'
 // import 'bootstrap/js/button'
 // import 'bootstrap/js/carousel'
 import 'bootstrap/js/collapse'
