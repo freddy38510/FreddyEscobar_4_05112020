@@ -23,6 +23,10 @@
 
 .navbar-toggle {
     color: #474747;
+
+    &:focus {
+        outline: 1px auto rgb(16,16,16);
+    }
 }
 
 .next-lightbox, .prev-lightbox, .close-lightbox {
