@@ -15,13 +15,13 @@ Voici les résultats obtenus avant l'application des recommandations.
 
 ### Lighthouse (non optimisée)
 
-![Rapport Lighthouse](/reports/assets/initial/Lighthouse_thumb.jpg "Rapport lighthouse")
+![Rapport Lighthouse](/reports/initial/Lighthouse_thumb.jpg "Rapport lighthouse")
 
-[Rapport complet au format pdf](/reports/assets/initial/Lighthouse.pdf)
+[Rapport complet au format pdf](/reports/initial/Lighthouse.pdf)
 
 ### Wave (non optimisée)
 
-![Rapport Wave](/reports/assets/initial/Wave.jpg "Rapport Wave")
+![Rapport Wave](/reports/initial/Wave.jpg "Rapport Wave")
 
 ## [Optimisation des ressources](https://build-optimized-resources--freddy-escobar-4-05112020.netlify.app/)
 
@@ -59,9 +59,9 @@ Voici les résultats obtenus après l'optimisation des ressources:
 
 ### Lighthouse (ressources optimisées)
 
-![Rapport Lighthouse](/reports/assets/optimized-resources/Lighthouse_thumb.jpg "Rapport lighthouse")
+![Rapport Lighthouse](/reports/optimized-resources/Lighthouse_thumb.jpg "Rapport lighthouse")
 
-[Rapport complet au format pdf](/reports/assets/optimized-resources/Lighthouse.pdf)
+[Rapport complet au format pdf](/reports/optimized-resources/Lighthouse.pdf)
 
 ### Comparaison (non optimisée / ressources optimisées)
 
@@ -100,13 +100,13 @@ Voici les résultats obtenus après l'optimisation des équivalents textuels:
 
 ### Lighthouse (équivalents textuels)
 
-![Rapport Lighthouse](/reports/assets/textual-equivalents/Lighthouse_thumb.jpg "Rapport lighthouse")
+![Rapport Lighthouse](/reports/textual-equivalents/Lighthouse_thumb.jpg "Rapport lighthouse")
 
-[Rapport complet au format pdf](/reports/assets/textual-equivalents/Lighthouse.pdf)
+[Rapport complet au format pdf](/reports/textual-equivalents/Lighthouse.pdf)
 
 ### Wave (équivalents textuels)
 
-![Rapport Wave](/reports/assets/textual-equivalents/Wave.jpg "Rapport Wave")
+![Rapport Wave](/reports/textual-equivalents/Wave.jpg "Rapport Wave")
 
 ### Comparaison (ressources optimisées / équivalents textuels)
 
@@ -142,7 +142,7 @@ Voici les résultats obtenus après l'ajout de balises sémantiques:
 
 ### Wave (sémantique HTML)
 
-![Rapport Wave](/reports/assets/semantic-html/Wave.jpg "Rapport Wave")
+![Rapport Wave](/reports/semantic-html/Wave.jpg "Rapport Wave")
 
 ### Comparaison (équivalents textuels / sémantique HTML)
 
@@ -173,9 +173,9 @@ Voici les résultats obtenus après ces corrections:
 
 ### Lighthouse (métadonnées corrigées)
 
-![Rapport Lighthouse](/reports/assets/metadatas/Lighthouse_thumb.jpg "Rapport lighthouse")
+![Rapport Lighthouse](/reports/metadatas/Lighthouse_thumb.jpg "Rapport lighthouse")
 
-[Rapport complet au format pdf](/reports/assets/metadatas/Lighthouse.pdf)
+[Rapport complet au format pdf](/reports/metadatas/Lighthouse.pdf)
 
 ### Comparaison (sémantique HTML / métadonnées corrigées)
 
@@ -203,9 +203,9 @@ Suite à cette amélioration, les résultats obtenus sont les suivants:
 
 ### Lighthouse (taille du texte augmentée)
 
-![Rapport Lighthouse](/reports/assets/font-size/Lighthouse_thumb.jpg "Rapport lighthouse")
+![Rapport Lighthouse](/reports/font-size/Lighthouse_thumb.jpg "Rapport lighthouse")
 
-[Rapport complet au format pdf](/reports/assets/font-size/Lighthouse.pdf)
+[Rapport complet au format pdf](/reports/font-size/Lighthouse.pdf)
 
 ### Comparaison (métadonnées corrigées / taille du texte augmentée)
 
@@ -235,13 +235,13 @@ Suite à ces suppressions, les résultats obtenus sont les suivants:
 
 ### Lighthouse (référencement non black hat)
 
-![Rapport Lighthouse](/reports/assets/no-black-hat/Lighthouse_thumb.jpg "Rapport lighthouse")
+![Rapport Lighthouse](/reports/no-black-hat/Lighthouse_thumb.jpg "Rapport lighthouse")
 
-[Rapport complet au format pdf](/reports/assets/no-black-hat/Lighthouse.pdf)
+[Rapport complet au format pdf](/reports/no-black-hat/Lighthouse.pdf)
 
 ### Wave (référencement non black hat)
 
-![Rapport Wave](/reports/assets/no-black-hat/Wave.jpg "Rapport Wave")
+![Rapport Wave](/reports/no-black-hat/Wave.jpg "Rapport Wave")
 
 ### Comparaison (taille du texte augmentée / référencement non black hat)
 
@@ -277,13 +277,13 @@ Suite à cette correction, les résultats suivants ont été obtenus:
 
 ### Lighthouse (contraste augmenté)
 
-![Rapport Lighthouse](/reports/assets/color-contrast/Lighthouse_thumb.jpg "Rapport lighthouse")
+![Rapport Lighthouse](/reports/color-contrast/Lighthouse_thumb.jpg "Rapport lighthouse")
 
-[Rapport complet au format pdf](/reports/assets/color-contrast/Lighthouse.pdf)
+[Rapport complet au format pdf](/reports/color-contrast/Lighthouse.pdf)
 
 ### Wave (contraste augmenté)
 
-![Rapport Wave](/reports/assets/color-contrast/Wave.jpg "Rapport Wave")
+![Rapport Wave](/reports/color-contrast/Wave.jpg "Rapport Wave")
 
 ### Comparaison (taille du texte augmentée / contraste augmenté)
 
@@ -323,7 +323,7 @@ Suite à ces corrections, les résultats suivants ont été obtenus:
 
 ### Aperçu du focus sur le site
 
-![Aperçu du focus sur le site](/reports/assets/focus/overview.gif "Aperçu du focus sur le site")
+![Aperçu du focus sur le site](/reports/focus/overview.gif "Aperçu du focus sur le site")
 
 ## [Optimisation de la navigation](https://build-optimized-navigation--freddy-escobar-4-05112020.netlify.app/)
 
@@ -349,7 +349,7 @@ Suite à ces modifications, les résultats suivants ont été obtenus:
 
 ### Wave (navigation optimisée)
 
-![Rapport Wave](/reports/assets/optimized-navigation/Wave.jpg "Rapport Wave")
+![Rapport Wave](/reports/optimized-navigation/Wave.jpg "Rapport Wave")
 
 ### Comparaison (correction du focus/ navigation optimisée)
 
@@ -378,13 +378,13 @@ Suite à cette modification, les résultats suivants ont été obtenus:
 
 ### Lighthouse (correction de la localisation)
 
-![Rapport Lighthouse](/reports/assets/localization/Lighthouse_thumb.jpg "Rapport lighthouse")
+![Rapport Lighthouse](/reports/localization/Lighthouse_thumb.jpg "Rapport lighthouse")
 
-[Rapport complet au format pdf](/reports/assets/localization/Lighthouse.pdf)
+[Rapport complet au format pdf](/reports/localization/Lighthouse.pdf)
 
 ### Wave (correction de la localisation)
 
-![Rapport Wave](/reports/assets/localization/Wave.jpg "Rapport Wave")
+![Rapport Wave](/reports/localization/Wave.jpg "Rapport Wave")
 
 ### Comparaison (navigation optimisée / correction de la localisation)
 
@@ -410,13 +410,13 @@ Nous sommes maintenant en mesure de comparer les performances et l'accessibilit�
 
 ### Lighthouse (optimisée)
 
-![Rapport Lighthouse](/reports/assets/master/Lighthouse_thumb.jpg "Rapport lighthouse")
+![Rapport Lighthouse](/reports/master/Lighthouse_thumb.jpg "Rapport lighthouse")
 
-[Rapport complet au format pdf](/reports/assets/master/Lighthouse.pdf)
+[Rapport complet au format pdf](/reports/master/Lighthouse.pdf)
 
 ### Wave (optimisée)
 
-![Rapport Wave](/reports/assets/master/Wave.jpg "Rapport Wave")
+![Rapport Wave](/reports/master/Wave.jpg "Rapport Wave")
 
 ### Comparaison (non optimisée / optimisée)
 

@@ -10,5 +10,5 @@ La version finale optimisée du site web passe le validateur W3C [HTML](https://
 
 ## Resources
 
-- [Rapport d'audit SEO](/reports/audit-SEO.xlsx)
-- [Rapport d'optimisation SEO](/reports/optimization.md)
+- [Rapport d'audit SEO](/reports/assets/audit-SEO.xlsx)
+- [Rapport d'optimisation SEO](/reports/optimization/)
