@@ -11,4 +11,4 @@ La version finale optimisée du site web passe le validateur W3C [HTML](https://
 ## Resources
 
 - [Rapport d'audit SEO](/reports/audit-SEO.xlsx)
-- [Rapport d'optimisation SEO](https://github.com/freddy38510/FreddyEscobar_4_05112020/tree/master/reports/optimization.md)
+- [Rapport d'optimisation SEO](/reports/optimization.md)
