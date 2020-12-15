@@ -26,7 +26,7 @@ Chaque recommandation appliquée présente une comparaison, avec la version qui 
 - [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - [Wave](https://wave.webaim.org/)
 
-> Notes: Le rapport Lighthouse complet est disponible en cliquant sur son aperçu.
+> **Notes: Le rapport Lighthouse complet est disponible en cliquant sur son aperçu.**
 
 ## [Version initiale](https://build-initial--freddy-escobar-4-05112020.netlify.app/)
 
