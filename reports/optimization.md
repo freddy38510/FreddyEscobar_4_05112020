@@ -2,7 +2,7 @@
 
 Ce rapport fait état des dix recommandations provenant du rapport d'analyse. Il décrit de manière approfondie les problèmes identifiés et les solutions envisagées et mises en place.
 
-Chaque optimisation présente une comparaison avec la version précèdente des résultats obtenus en terme de performance et d'accessibilité, à l'aide de ces deux outils:
+Chaque optimisation présente une comparaison avec la version précédente des résultats obtenus en terme de performance et d'accessibilité, à l'aide de ces deux outils:
 
 - [google lighthouse](https://developers.google.com/web/tools/lighthouse)
 - [Wave](https://wave.webaim.org/)
@@ -23,21 +23,21 @@ Voici les résultats obtenus avant l'application des recommandations.
 
 ![Rapport Wave](/reports/initial/Wave.jpg "Rapport Wave")
 
-## [Optimisation des resources](https://build-optimized-resources--freddy-escobar-4-05112020.netlify.app/)
+## [Optimisation des ressources](https://build-optimized-resources--freddy-escobar-4-05112020.netlify.app/)
 
-La gestion des resources impactent en premier lieu les performances d'un site.
+La gestion des ressources impactent en premier lieu les performances d'un site.
 
 Voici la liste des problèmes constatés:
 
-- Le poids total des resources téléchargées est de **8,274 KiB**. Ce qui est conséquent.
+- Le poids total des ressources téléchargées est de **8,274 KiB**. Ce qui est conséquent.
 
-- Des resources ne sont pas utilisées.
+- Des ressources ne sont pas utilisées.
 
-- Les resources non critiques bloquent le rendu de la page pendant un certain temps.
+- Les ressources non critiques bloquent le rendu de la page pendant un certain temps.
 
 Il a donc été mis en place plusieurs modifications, dont voici la liste:
 
-- Minification des resources javascript et css, ainsi que des documents html.
+- Minification des ressources javascript et css, ainsi que des documents html.
 
 - Compression et conversion des images vers des formats optimisés.
 
@@ -51,19 +51,19 @@ Il a donc été mis en place plusieurs modifications, dont voici la liste:
 
 - Report du chargement des ressources non critiques. Utilisation de la technique "lazy loading" pour les images non visibles à l'écran.
 
-- Création de bundles javascript. Les bibliothèques tierces se trouvent dans un bundle séparé, pour mise en cache, indépendamment du code implémanté par les développeurs de La Chouette Agence.
+- Création de bundles javascript. Les bibliothèques tierces se trouvent dans un bundle séparé, pour mise en cache, indépendamment du code implémenté par les développeurs de La Chouette Agence.
 
-- Le css critique, c'est à dire directement visible à l'écran au chargement du site, est inséré dans le document html. Le reste du css et chargé plus tard via une feuille de style externe.
+- Le css critique, c’est-à-dire directement visible à l'écran au chargement du site, est inséré dans le document html. Le reste du css et chargé plus tard via une feuille de style externe.
 
-Voici les résultats obtenus après l'optimisation des resources:
+Voici les résultats obtenus après l'optimisation des ressources:
 
-### Lighthouse (resources optimisées)
+### Lighthouse (ressources optimisées)
 
 ![Rapport Lighthouse](/reports/optimized-resources/Lighthouse_thumb.jpg "Rapport lighthouse")
 
 [Rapport complet au format pdf](/reports/optimized-resources/Lighthouse.pdf)
 
-### Comparaison (non optimisée / resources optimisées)
+### Comparaison (non optimisée / ressources optimisées)
 
 | Lighthouse | Avant  | Après | Gain
 | ------------- | ------------- | ------------- | ------------- |
@@ -78,11 +78,11 @@ Une mauvaise gestion des équivalents textuels peut dégrader les performances. 
 
 Voici la liste des problèmes identifiés:
 
-- Des images avec du texte sont utilisées. Cela génère des requêtes supplémentaires inutiles. Mais surtout, cela "empêche" les moteurs de recherche d'accèder au contenu de ce texte.
+- Des images avec du texte sont utilisées. Cela génère des requêtes supplémentaires inutiles. Mais surtout, cela "empêche" les moteurs de recherche d'accéder au contenu de ce texte.
 
 - Le texte alternatif concernant les images n'est ni pertinent, ni concis.
 
-- Les champs du formulaire de contact n'ont pas de label associés.
+- Les champs du formulaire de contact n'ont pas de label associé.
 
 - Certains liens n'ont pas d'intitulé.
 
@@ -108,7 +108,7 @@ Voici les résultats obtenus après l'optimisation des équivalents textuels:
 
 ![Rapport Wave](/reports/textual-equivalents/Wave.jpg "Rapport Wave")
 
-### Comparaison (resources optimisées / équivalents textuels)
+### Comparaison (ressources optimisées / équivalents textuels)
 
 | Lighthouse | Avant  | Après | Gain
 | ------------- | ------------- | ------------- | ------------- |
@@ -121,7 +121,7 @@ Voici les résultats obtenus après l'optimisation des équivalents textuels:
 | ------------- | ------------- | ------------- | ------------- |
 | **Erreurs**  | 5  | 1  | **-4**  |
 | **Alertes**  | 12  | 10  | **-2**  |
-| **Eléments structurés**  | 15 | 18  | **+3**  |
+| **Éléments structurés**  | 15 | 18  | **+3**  |
 | **Erreurs de contraste**  | 29  | 31  | **+2**  |
 | **Fonctionnalités**  | 7  | 6  | **-1**  |
 | **ARIA**  | 0  | 11  | **+11**  |
@@ -132,7 +132,7 @@ La sémantique HTML permet une meilleure compréhension du contenu du site, de l
 
 Voici les points qui posent problème:
 
-- Le contenu des documents HTML n'est pas structurés à l'aide de balises sémantique.
+- Le contenu des documents HTML n'est pas structuré à l'aide de balises sémantique.
 
 Ce problème a été résolu de la façon suivante:
 
@@ -150,12 +150,12 @@ Voici les résultats obtenus après l'ajout de balises sémantiques:
 | ------------- | ------------- | ------------- | ------------- |
 | **Erreurs**  | 1  | 1  | **0**  |
 | **Alertes**  | 10  | 9  | **-1**  |
-| **Eléments structurés**  | 18 | 20  | **+2**  |
+| **Éléments structurés**  | 18 | 20  | **+2**  |
 | **Erreurs de contraste**  | 31  | 31  | **0**  |
 | **Fonctionnalités**  | 6  | 6  | **0**  |
 | **ARIA**  | 11  | 11  | **0**  |
 
-## [Correction des metadonnées](https://build-metadatas--freddy-escobar-4-05112020.netlify.app/)
+## [Correction des métadonnées](https://build-metadatas--freddy-escobar-4-05112020.netlify.app/)
 
 Les méta-données donnent des indications très importantes pour décrire les pages aux moteurs de recherche ainsi qu'aux outils d'accessibilité.
 
@@ -171,13 +171,13 @@ Ces erreurs ont été corrigées de la façon suivante:
 
 Voici les résultats obtenus après ces corrections:
 
-### Lighthouse (meta-données corrigées)
+### Lighthouse (métadonnées corrigées)
 
 ![Rapport Lighthouse](/reports/metadatas/Lighthouse_thumb.jpg "Rapport lighthouse")
 
 [Rapport complet au format pdf](/reports/metadatas/Lighthouse.pdf)
 
-### Comparaison (sémantique HTML / meta-données corrigées)
+### Comparaison (sémantique HTML / métadonnées corrigées)
 
 | Lighthouse | Avant  | Après | Gain
 | ------------- | ------------- | ------------- | ------------- |
@@ -188,7 +188,7 @@ Voici les résultats obtenus après ces corrections:
 
 ## [Taille du texte](https://build-font-size--freddy-escobar-4-05112020.netlify.app/)
 
-La taille des police de fonte est importante pour la lisibilité du texte, notamment sur mobile.
+La taille des polices de fonte est importante pour la lisibilité du texte, notamment sur mobile.
 
 Le problème suivant a été rencontré:
 
@@ -207,7 +207,7 @@ Suite à cette amélioration, les résultats obtenus sont les suivants:
 
 [Rapport complet au format pdf](/reports/font-size/Lighthouse.pdf)
 
-### Comparaison (meta-données corrigées / taille du texte augmentée)
+### Comparaison (métadonnées corrigées / taille du texte augmentée)
 
 | Lighthouse | Avant  | Après | Gain
 | ------------- | ------------- | ------------- | ------------- |
@@ -233,17 +233,17 @@ Les solutions apportées sont les suivantes:
 
 Suite à ces suppressions, les résultats obtenus sont les suivants:
 
-### Lighthouse (réfèrencement non black hat)
+### Lighthouse (référencement non black hat)
 
 ![Rapport Lighthouse](/reports/no-black-hat/Lighthouse_thumb.jpg "Rapport lighthouse")
 
 [Rapport complet au format pdf](/reports/no-black-hat/Lighthouse.pdf)
 
-### Wave (réfèrencement non black hat)
+### Wave (référencement non black hat)
 
 ![Rapport Wave](/reports/no-black-hat/Wave.jpg "Rapport Wave")
 
-### Comparaison (taille du texte augmentée / réfèrencement non black hat)
+### Comparaison (taille du texte augmentée / référencement non black hat)
 
 | Lighthouse | Avant  | Après | Gain
 | ------------- | ------------- | ------------- | ------------- |
@@ -256,7 +256,7 @@ Suite à ces suppressions, les résultats obtenus sont les suivants:
 | ------------- | ------------- | ------------- | ------------- |
 | **Erreurs**  | 1  | 1  | **0**  |
 | **Alertes**  | 9  | 7  | **-2**  |
-| **Eléments structurés**  | 20 | 17  | **-3**  |
+| **Éléments structurés**  | 20 | 17  | **-3**  |
 | **Erreurs de contraste**  | 31  | 6  | **-25**  |
 | **Fonctionnalités**  | 6  | 6  | **0**  |
 | **ARIA**  | 11  | 11  | **0**  |
@@ -298,14 +298,14 @@ Suite à cette correction, les résultats suivants ont été obtenus:
 | ------------- | ------------- | ------------- | ------------- |
 | **Erreurs**  | 1  | 1  | **0**  |
 | **Alertes**  | 7  | 7  | **0**  |
-| **Eléments structurés**  | 17 | 17  | **0**  |
+| **Éléments structurés**  | 17 | 17  | **0**  |
 | **Erreurs de contraste**  | 6  | 0  | **-6**  |
 | **Fonctionnalités**  | 6  | 6  | **0**  |
 | **ARIA**  | 11  | 11  | **0**  |
 
 ## [Focus](https://build-focus--freddy-escobar-4-05112020.netlify.app/)
 
-Le focus des éléments intéractifs permet de naviguer sur un site à l'aide d'un clavier.
+Le focus des éléments interactifs permet de naviguer sur un site à l'aide d'un clavier.
 
 Ces problèmes ont été identifiés:
 
@@ -317,7 +317,7 @@ Ces problèmes ont été résolus comme ceci:
 
 - Ajout d'un style css qui permet d'identifier les éléments portants le focus.
 
-- Ajout de l'attribut tabindex pour corriger le focus sur les modal.
+- Ajout de l'attribut `tabindex` pour corriger le focus sur les modal.
 
 Suite à ces corrections, les résultats suivants ont été obtenus:
 
@@ -327,13 +327,13 @@ Suite à ces corrections, les résultats suivants ont été obtenus:
 
 ## [Optimisation de la navigation](https://build-optimized-navigation--freddy-escobar-4-05112020.netlify.app/)
 
-La navigation d'un site web est un élément important pour l'expérience utilisateur. Celle-ci doit être bien pensée, afin de facilité l'exploration du contenu du site par les moteurs de recherche et les outils d'accessibilité.
+La navigation d'un site web est un élément important pour l'expérience utilisateur. Celle-ci doit être bien pensée, afin de faciliter l'exploration du contenu du site par les moteurs de recherche et les outils d'accessibilité.
 
 Les problèmes suivants ont été identifiés:
 
 - Une page dédiée au formulaire de contact est superflue.
 
-- Il n'y a pas de liens renvoyants vers les diffèrentes sections de la page d'accueil.
+- Il n'y a pas de liens renvoyant vers les différentes sections de la page d'accueil.
 
 - Redondances des liens vers la page de contact.
 
@@ -341,9 +341,9 @@ Ces problèmes ont été résolus de la façon suivante:
 
 - Suppression de la page de contact, et intégration du formulaire de contact sur la page d'accueil.
 
-- Ajout de liens à la barre de navigation vers les diffèrentes sections de la page d'accueil.
+- Ajout de liens à la barre de navigation vers les différentes sections de la page d'accueil.
 
-- Ajout d'un boutton qui apparaît après le défilement de la page vers le bas, et qui permet de remonter tout en haut de la page.
+- Ajout d'un bouton qui apparaît après le défilement de la page vers le bas, et qui permet de remonter tout en haut de la page.
 
 Suite à ces modifications, les résultats suivants ont été obtenus:
 
@@ -357,7 +357,7 @@ Suite à ces modifications, les résultats suivants ont été obtenus:
 | ------------- | ------------- | ------------- | ------------- |
 | **Erreurs**  | 1  | 1  | **0**  |
 | **Alertes**  | 7  | 0  | **-7**  |
-| **Eléments structurés**  | 17 | 17  | **0**  |
+| **Éléments structurés**  | 17 | 17  | **0**  |
 | **Erreurs de contraste**  | 0  | 0  | **0**  |
 | **Fonctionnalités**  | 6  | 10  | **+4**  |
 | **ARIA**  | 11  | 13  | **+2**  |
@@ -399,14 +399,14 @@ Suite à cette modification, les résultats suivants ont été obtenus:
 | ------------- | ------------- | ------------- | ------------- |
 | **Erreurs**  | 1  | 0  | **-1**  |
 | **Alertes**  | 0  | 0  | **0**  |
-| **Eléments structurés**  | 17 | 17  | **0**  |
+| **Éléments structurés**  | 17 | 17  | **0**  |
 | **Erreurs de contraste**  | 0  | 0  | **0**  |
 | **Fonctionnalités**  | 10  | 11  | **+1**  |
 | **ARIA**  | 13  | 13  | **0**  |
 
 ## [Version finale optimisée](https://freddy-escobar-4-05112020.netlify.app/)
 
-Nous sommes maintenant en mesure de comparé les performances et l'accessibilité entre la version initiale du site, et celles qui incorpore les dix recommandations présentées lors de l'audit.
+Nous sommes maintenant en mesure de comparer les performances et l'accessibilité entre la version initiale du site, et celles qui incorporent les dix recommandations présentées lors de l'audit.
 
 ### Lighthouse (optimisée)
 
@@ -431,7 +431,7 @@ Nous sommes maintenant en mesure de comparé les performances et l'accessibilit�
 | ------------- | ------------- | ------------- | ------------- |
 | **Erreurs**  | 5  | 0  | **-5**  |
 | **Alertes**  | 12  | 0  | **-12**  |
-| **Eléments structurés**  | 15 | 17  | **+2**  |
+| **Éléments structurés**  | 15 | 17  | **+2**  |
 | **Erreurs de contraste**  | 29  | 0  | **-29**  |
 | **Fonctionnalités**  | 7  | 11  | **+4**  |
 | **ARIA**  | 0  | 13  | **+13**  |
