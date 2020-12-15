@@ -2,12 +2,27 @@
 
 Ce rapport fait état des dix recommandations provenant du rapport d'analyse. Il décrit de manière approfondie les problèmes identifiés et les solutions envisagées et mises en place.
 
-Chaque optimisation présente une comparaison avec la version précédente des résultats obtenus en terme de performance et d'accessibilité, à l'aide de ces deux outils:
+Chaque recommandation appliquée présente une comparaison, avec la version qui la précède, des résultats obtenus en terme de performance et d'accessibilité, à l'aide de ces deux outils:
 
-- [google lighthouse](https://developers.google.com/web/tools/lighthouse)
+- [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - [Wave](https://wave.webaim.org/)
 
-> Les optimisations se cumulent les unes avec les autres, elles sont présentées dans l'ordre chronologique ascendant.
+## Table des matières
+
+0. [Version initiale](#Version-initiale-non-optimisée)
+1. [Optimisation des ressources](#optimisation-des-ressources)
+2. [Equivalents textuels](#equivalents-textuels)
+3. [Sémantique HTML](#sémantique-html)
+4. [Métadonnées](#correction-des-métadonnées)
+5. [Taille de police](#taille-du-texte)
+6. [Référencement non black hat](#seo-black-hat)
+7. [Contraste des couleurs](#contraste-des-couleurs)
+8. [Focus](#focus)
+9. [Optimisation de la navigation](#optimisation-de-la-navigation)
+10. [Localisation](#localisation)
+11. [Version finale](#version-finale-optimisée)
+
+> Les recommandations se cumulent les unes avec les autres, elles sont présentées dans l'ordre chronologique ascendant.
 
 ## [Version initiale non optimisée](https://build-initial--freddy-escobar-4-05112020.netlify.app/)
 
