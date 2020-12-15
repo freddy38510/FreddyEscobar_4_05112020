@@ -9,7 +9,9 @@ Chaque recommandation appliquée présente une comparaison, avec la version qui 
 
 ## Table des matières
 
-0. [Version initiale](#Version-initiale-non-optimisée)
+- [Version initiale](#Version-initiale-non-optimisée)
+- [Version finale](#version-finale-optimisée)
+
 1. [Optimisation des ressources](#optimisation-des-ressources)
 2. [Equivalents textuels](#equivalents-textuels)
 3. [Sémantique HTML](#sémantique-html)
@@ -20,7 +22,6 @@ Chaque recommandation appliquée présente une comparaison, avec la version qui 
 8. [Focus](#focus)
 9. [Optimisation de la navigation](#optimisation-de-la-navigation)
 10. [Localisation](#localisation)
-11. [Version finale](#version-finale-optimisée)
 
 > Les recommandations se cumulent les unes avec les autres, elles sont présentées dans l'ordre chronologique ascendant.
 
