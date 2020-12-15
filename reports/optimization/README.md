@@ -26,17 +26,19 @@ Chaque recommandation appliquée présente une comparaison, avec la version qui 
 - [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - [Wave](https://wave.webaim.org/)
 
+> Notes: Le rapport Lighthouse complet est disponible en cliquant sur son aperçu.
+
 ## [Version initiale](https://build-initial--freddy-escobar-4-05112020.netlify.app/)
 
 Ci-dessous, les résultats issus de la version initiale fournie telle quelle, sans aucun changements apportés.
 
-<p align="center">
-    <img src="/reports/assets/initial/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
+<p>
+    <a href="/reports/assets/initial/Lighthouse.pdf">
+        <img src="/reports/assets/initial/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
+    </a>
 </p>
-<p align="center">
-    <a href="/reports/assets/initial/Lighthouse.pdf">(Rapport Lighthouse complet au format pdf)</a>
-</p>
-<p align="center">
+
+<p>
     <img src="/reports/assets/initial/Wave.jpg" alt="Rapport Wave" width="400">
 </p>
 
@@ -78,11 +80,10 @@ La gestion des ressources impactent en premier lieu les performances d'un site.
 
 #### Résultats
 
-<p align="center">
-    <img src="/reports/assets/optimized-resources/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
-</p>
-<p align="center">
-    <a href="/reports/assets/optimized-resources/Lighthouse.pdf">(Rapport Lighthouse complet au format pdf)</a>
+<p>
+    <a href="/reports/assets/optimized-resources/Lighthouse.pdf">
+        <img src="/reports/assets/optimized-resources/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
+    </a>
 </p>
 
 #### Comparaison
@@ -120,13 +121,13 @@ Une mauvaise gestion des équivalents textuels peut dégrader les performances. 
 
 #### Résultats
 
-<p align="center">
-    <img src="/reports/assets/textual-equivalents/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
+<p>
+    <a href="/reports/assets/textual-equivalents/Lighthouse.pdf">
+        <img src="/reports/assets/textual-equivalents/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
+    </a>
 </p>
-<p align="center">
-    <a href="/reports/assets/textual-equivalents/Lighthouse.pdf">(Rapport Lighthouse complet au format pdf)</a>
-</p>
-<p align="center">
+
+<p>
     <img src="/reports/assets/textual-equivalents/Wave.jpg" alt="Rapport Wave" width="400">
 </p>
 
@@ -162,7 +163,7 @@ La sémantique HTML permet une meilleure compréhension du contenu du site, de l
 
 #### Résultats
 
-<p align="center">
+<p>
     <img src="/reports/assets/semantic-html/Wave.jpg" alt="Rapport Wave" width="400">
 </p>
 
@@ -193,11 +194,10 @@ Les méta-données donnent des indications très importantes pour décrire les p
 
 #### Résultats
 
-<p align="center">
-    <img src="/reports/assets/metadatas/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
-</p>
-<p align="center">
-    <a href="/reports/assets/metadatas/Lighthouse.pdf">(Rapport Lighthouse complet au format pdf)</a>
+<p>
+    <a href="/reports/assets/metadatas/Lighthouse.pdf">
+        <img src="/reports/assets/metadatas/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
+    </a>
 </p>
 
 #### Comparaison
@@ -224,11 +224,10 @@ La taille des polices de fonte est importante pour la lisibilité du texte, nota
 
 #### Résultats
 
-<p align="center">
-    <img src="/reports/assets/font-size/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
-</p>
-<p align="center">
-    <a href="/reports/assets/font-size/Lighthouse.pdf">(Rapport Lighthouse complet au format pdf)</a>
+<p>
+    <a href="/reports/assets/font-size/Lighthouse.pdf">
+        <img src="/reports/assets/font-size/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
+    </a>
 </p>
 
 #### Comparaison
@@ -257,13 +256,13 @@ Le réfèrencent appelée "black hat" consiste à utiliser des techniques non re
 
 #### Résultats
 
-<p align="center">
-    <img src="/reports/assets/no-black-hat/Lighthouse_thumb.jpg " alt="Aperçu rapport Lighthouse" width="400">
+<p>
+    <a href="/reports/assets/no-black-hat/Lighthouse.pdf">
+        <img src="/reports/assets/no-black-hat/Lighthouse_thumb.jpg " alt="Aperçu rapport Lighthouse" width="400">
+    </a>
 </p>
-<p align="center">
-    <a href="/reports/assets/no-black-hat/Lighthouse.pdf">(Rapport Lighthouse complet au format pdf)</a>
-</p>
-<p align="center">
+
+<p>
     <img src="/reports/assets/no-black-hat/Wave.jpg" alt="Rapport Wave" width="400">
 </p>
 
@@ -299,13 +298,13 @@ Le contraste des couleurs entre le texte et le fond, permet une bonne lisibilit�
 
 #### Résultats
 
-<p align="center">
-    <img src="/reports/assets/color-contrast/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
+<p>
+    <a href="/reports/assets/color-contrast/Lighthouse.pdf">
+        <img src="/reports/assets/color-contrast/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
+    </a>
 </p>
-<p align="center">
-    <a href="/reports/assets/color-contrast/Lighthouse.pdf">(Rapport Lighthouse complet au format pdf)</a>
-</p>
-<p align="center">
+
+<p>
     <img src="/reports/assets/color-contrast/Wave.jpg" alt="Rapport Wave" width="400">
 </p>
 
@@ -347,7 +346,7 @@ Suite à ces corrections, les résultats suivants ont été obtenus:
 
 #### Résultats
 
-<p align="center">
+<p>
     <img src="/reports/assets/focus/overview.gif" alt="Aperçu du focus sur le site" width="400">
 </p>
 
@@ -373,7 +372,7 @@ La navigation d'un site web est un élément important pour l'expérience utilis
 
 #### Résultats
 
-<p align="center">
+<p>
     <img src="/reports/assets/optimized-navigation/Wave.jpg" alt="Rapport Wave" width="400">
 </p>
 
@@ -402,13 +401,13 @@ La localisation d'un site web et ce qui permet de définir dans quelle(s) langue
 
 #### Résultats
 
-<p align="center">
-    <img src="/reports/assets/localization/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
+<p>
+    <a href="/reports/assets/localization/Lighthouse.pdf">
+        <img src="/reports/assets/localization/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
+    </a>
 </p>
-<p align="center">
-    <a href="/reports/assets/localization/Lighthouse.pdf">(Rapport Lighthouse complet au format pdf)</a>
-</p>
-<p align="center">
+
+<p>
     <img src="/reports/assets/localization/Wave.jpg" alt="Rapport Wave" width="400">
 </p>
 
@@ -436,13 +435,13 @@ Nous sommes maintenant en mesure de comparer les performances et l'accessibilit�
 
 ### Résultats
 
-<p align="center">
-    <img src="/reports/assets/master/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
+<p>
+    <a href="/reports/assets/master/Lighthouse.pdf">
+        <img src="/reports/assets/master/Lighthouse_thumb.jpg" alt="Aperçu rapport Lighthouse" width="400">
+    </a>
 </p>
-<p align="center">
-    <a href="/reports/assets/master/Lighthouse.pdf">(Rapport Lighthouse complet au format pdf)</a>
-</p>
-<p align="center">
+
+<p>
     <img src="/reports/assets/master/Wave.jpg" alt="Rapport Wave" width="400">
 </p>
 
