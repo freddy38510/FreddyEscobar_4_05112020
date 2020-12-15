@@ -5,16 +5,16 @@
 - [Introduction](#introduction)
 - [Version initiale](#version-initiale)
 - [Recommandations appliquées](#recommandations-appliquées)
-  1. [Optimisation des ressources](#optimisation-des-ressources)
-  2. [Equivalents textuels](#equivalents-textuels)
-  3. [Sémantique HTML](#sémantique-html)
-  4. [Métadonnées](#correction-des-métadonnées)
-  5. [Taille de police](#taille-du-texte)
-  6. [Référencement non black hat](#référencement-black-hat)
-  7. [Contraste des couleurs](#contraste-des-couleurs)
-  8. [Focus](#focus)
-  9. [Optimisation de la navigation](#optimisation-de-la-navigation)
-  10. [Localisation](#localisation)
+  1. [Optimisation des ressources](#1-optimisation-des-ressources)
+  2. [Equivalents textuels](#2-equivalents-textuels)
+  3. [Sémantique HTML](#3-sémantique-html)
+  4. [Métadonnées](#4-correction-des-métadonnées)
+  5. [Taille de police](#5-taille-du-texte)
+  6. [Référencement non black hat](#6-référencement-black-hat)
+  7. [Contraste des couleurs](#7-contraste-des-couleurs)
+  8. [Focus](#8-focus)
+  9. [Optimisation de la navigation](#9-optimisation-de-la-navigation)
+  10. [Localisation](#10-localisation)
 - [Version finale](#version-finale)
 
 ## Introduction
@@ -95,7 +95,7 @@ La gestion des ressources impactent en premier lieu les performances d'un site.
 | **Pratiques recommandées** | 86    | 93    | **+7**  |
 | **SEO**                    | 78    | 78    |   0     |
 
-### [Equivalents textuels](https://build-textual-equivalents--freddy-escobar-4-05112020.netlify.app/)
+### [2. Equivalents textuels](https://build-textual-equivalents--freddy-escobar-4-05112020.netlify.app/)
 
 Une mauvaise gestion des équivalents textuels peut dégrader les performances. Cependant, la principale optimisation concerne ici l'accessibilité et le SEO.
 
@@ -150,7 +150,7 @@ Une mauvaise gestion des équivalents textuels peut dégrader les performances. 
 | **Fonctionnalités**      | 7     | 6     | **-1**  |
 | **ARIA**                 | 0     | 11    | **+11** |
 
-### [Sémantique HTML](https://build-semantic-html--freddy-escobar-4-05112020.netlify.app/)
+### [3. Sémantique HTML](https://build-semantic-html--freddy-escobar-4-05112020.netlify.app/)
 
 La sémantique HTML permet une meilleure compréhension du contenu du site, de la part des outils d'accessibilité, et des moteurs de recherche.
 
@@ -179,7 +179,7 @@ La sémantique HTML permet une meilleure compréhension du contenu du site, de l
 | **Fonctionnalités**      | 6     | 6     | 0      |
 | **ARIA**                 | 11    | 11    | 0      |
 
-### [Correction des métadonnées](https://build-metadatas--freddy-escobar-4-05112020.netlify.app/)
+### [4. Correction des métadonnées](https://build-metadatas--freddy-escobar-4-05112020.netlify.app/)
 
 Les méta-données donnent des indications très importantes pour décrire les pages aux moteurs de recherche ainsi qu'aux outils d'accessibilité.
 
@@ -211,7 +211,7 @@ Les méta-données donnent des indications très importantes pour décrire les p
 | **Pratiques recommandées** | 93    | 93    |   0    |
 | **SEO**                    | 78    | 86    | **+8** |
 
-### [Taille du texte](https://build-font-size--freddy-escobar-4-05112020.netlify.app/)
+### [5. Taille du texte](https://build-font-size--freddy-escobar-4-05112020.netlify.app/)
 
 La taille des polices de fonte est importante pour la lisibilité du texte, notamment sur mobile.
 
@@ -242,7 +242,7 @@ La taille des polices de fonte est importante pour la lisibilité du texte, nota
 | **Pratiques recommandées** | 93    | 93    |   0    |
 | **SEO**                    | 86    | 94    | **+8** |
 
-### [Référencement Black Hat](https://build-no-black-hat--freddy-escobar-4-05112020.netlify.app/)
+### [6. Référencement Black Hat](https://build-no-black-hat--freddy-escobar-4-05112020.netlify.app/)
 
 Le réfèrencent appelée "black hat" consiste à utiliser des techniques non recommandées, voire pénalisées ou interdites, par les moteurs de recherche, afin d'accroître la visibilité du site.
 
@@ -288,7 +288,7 @@ Le réfèrencent appelée "black hat" consiste à utiliser des techniques non re
 | **Fonctionnalités**      | 6     | 6     |   0     |
 | **ARIA**                 | 11    | 11    |   0     |
 
-### [Contraste des couleurs](https://build-color-contrast--freddy-escobar-4-05112020.netlify.app/)
+### [7. Contraste des couleurs](https://build-color-contrast--freddy-escobar-4-05112020.netlify.app/)
 
 Le contraste des couleurs entre le texte et le fond, permet une bonne lisibilité.
 
@@ -331,7 +331,7 @@ Le contraste des couleurs entre le texte et le fond, permet une bonne lisibilit�
 | **Fonctionnalités**      | 6     | 6     |   0    |
 | **ARIA**                 | 11    | 11    |   0    |
 
-### [Focus](https://build-focus--freddy-escobar-4-05112020.netlify.app/)
+### [8. Focus](https://build-focus--freddy-escobar-4-05112020.netlify.app/)
 
 Le focus des éléments interactifs permet de naviguer sur un site à l'aide d'un clavier.
 
@@ -355,7 +355,7 @@ Suite à ces corrections, les résultats suivants ont été obtenus:
     <img src="/reports/assets/focus/overview.gif" alt="Aperçu du focus sur le site" width="450">
 </figure>
 
-### [Optimisation de la navigation](https://build-optimized-navigation--freddy-escobar-4-05112020.netlify.app/)
+### [9. Optimisation de la navigation](https://build-optimized-navigation--freddy-escobar-4-05112020.netlify.app/)
 
 La navigation d'un site web est un élément important pour l'expérience utilisateur. Celle-ci doit être bien pensée, afin de faciliter l'exploration du contenu du site par les moteurs de recherche et les outils d'accessibilité.
 
@@ -392,7 +392,7 @@ La navigation d'un site web est un élément important pour l'expérience utilis
 | **Fonctionnalités**      | 6     | 10    | **+4** |
 | **ARIA**                 | 11    | 13    | **+2** |
 
-### [Localisation](https://build-localization--freddy-escobar-4-05112020.netlify.app/)
+### [10. Localisation](https://build-localization--freddy-escobar-4-05112020.netlify.app/)
 
 La localisation d'un site web et ce qui permet de définir dans quelle(s) langue(s) est disponible le contenu.
 
@@ -435,7 +435,7 @@ La localisation d'un site web et ce qui permet de définir dans quelle(s) langue
 | **Fonctionnalités**      | 10    | 11    | **+1** |
 | **ARIA**                 | 13    | 13    |   0    |
 
-## [Version finale optimisée](https://freddy-escobar-4-05112020.netlify.app/)
+## [Version finale](https://freddy-escobar-4-05112020.netlify.app/)
 
 Nous sommes maintenant en mesure de comparer les performances et l'accessibilité entre la version initiale du site, et celles qui incorporent les dix recommandations présentées lors de l'audit.
 
