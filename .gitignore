@@ -2,3 +2,6 @@
 /node_modules
 /dist
 .vscode/settings.json
+
+# Local Netlify folder
+.netlify
