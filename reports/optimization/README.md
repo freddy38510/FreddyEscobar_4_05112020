@@ -21,7 +21,7 @@
 
 Ce rapport fait état des dix recommandations provenant du rapport d'analyse. Il décrit de manière approfondie les problèmes identifiés et les solutions envisagées et mises en place.
 
-Chaque recommandation appliquée présente une comparaison, avec la version qui la précède, des résultats obtenus en terme de performance et d'accessibilité, à l'aide de ces deux outils:
+Chaque recommandation appliquée présente une comparaison, avec la version qui la précéde, des résultats obtenus en terme de performance et d'accessibilité, à l'aide de ces deux outils:
 
 - [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - [Wave](https://wave.webaim.org/)
