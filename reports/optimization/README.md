@@ -459,7 +459,7 @@ Nous sommes maintenant en mesure de comparer les performances et l'accessibilit√
     </a>
 </p>
 
-### Comparaison
+### Comparaison (avec la version initiale)
 
 | Lighthouse                 | Avant | Apr√®s | Gain    |
 | -------------------------- | ----- | ----- | ------- |
