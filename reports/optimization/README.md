@@ -352,8 +352,6 @@ Le focus des éléments interactifs permet de naviguer sur un site à l'aide d'u
 
 - Ajout de l'attribut `tabindex` pour corriger le focus sur les modal.
 
-Suite à ces corrections, les résultats suivants ont été obtenus:
-
 #### Résultats
 
 <p>
