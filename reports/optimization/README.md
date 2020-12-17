@@ -26,7 +26,7 @@ Chaque recommandation appliquée présente une comparaison, avec la version qui 
 - [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - [Wave](https://wave.webaim.org/)
 
-> **Notes: Le rapport Lighthouse complet est disponible en cliquant sur son aperçu.**
+> **Note: Le rapport Lighthouse complet au format `pdf` est disponible en cliquant sur son image d'aperçu.**
 
 ## [Version initiale](https://build-initial--freddy-escobar-4-05112020.netlify.app/)
 
@@ -39,7 +39,9 @@ Ci-dessous, les résultats issus de la version initiale fournie telle quelle, sa
 </p>
 
 <p>
-    <img src="/reports/assets/initial/Wave.jpg" alt="Rapport Wave" width="400">
+    <a href="https://wave.webaim.org/report#/https://build-initial--freddy-escobar-4-05112020.netlify.app/">
+        <img src="/reports/assets/initial/Wave.jpg" alt="Rapport Wave" width="400">
+    </a>
 </p>
 
 ## Recommandations appliquées
@@ -128,7 +130,9 @@ Une mauvaise gestion des équivalents textuels peut dégrader les performances. 
 </p>
 
 <p>
-    <img src="/reports/assets/textual-equivalents/Wave.jpg" alt="Rapport Wave" width="400">
+    <a href="https://wave.webaim.org/report#/https://build-textual-equivalents--freddy-escobar-4-05112020.netlify.app/">
+        <img src="/reports/assets/textual-equivalents/Wave.jpg" alt="Rapport Wave" width="400">
+    </a>
 </p>
 
 #### Comparaison
@@ -164,7 +168,9 @@ La sémantique HTML permet une meilleure compréhension du contenu du site, de l
 #### Résultats
 
 <p>
-    <img src="/reports/assets/semantic-html/Wave.jpg" alt="Rapport Wave" width="400">
+    <a href="https://wave.webaim.org/report#/https://build-semantic-html--freddy-escobar-4-05112020.netlify.app/">
+        <img src="/reports/assets/semantic-html/Wave.jpg" alt="Rapport Wave" width="400">
+    </a>
 </p>
 
 #### Comparaison
@@ -263,7 +269,9 @@ Le réfèrencent appelée "black hat" consiste à utiliser des techniques non re
 </p>
 
 <p>
-    <img src="/reports/assets/no-black-hat/Wave.jpg" alt="Rapport Wave" width="400">
+    <a href="https://wave.webaim.org/report#/https://build-no-black-hat--freddy-escobar-4-05112020.netlify.app/">
+        <img src="/reports/assets/no-black-hat/Wave.jpg" alt="Rapport Wave" width="400">
+    </a>
 </p>
 
 #### Comparaison
@@ -305,7 +313,9 @@ Le contraste des couleurs entre le texte et le fond, permet une bonne lisibilit�
 </p>
 
 <p>
-    <img src="/reports/assets/color-contrast/Wave.jpg" alt="Rapport Wave" width="400">
+    <a href="https://wave.webaim.org/report#/https://build-color-contrast--freddy-escobar-4-05112020.netlify.app/">
+        <img src="/reports/assets/color-contrast/Wave.jpg" alt="Rapport Wave" width="400">
+    </a>
 </p>
 
 #### Comparaison
@@ -373,7 +383,9 @@ La navigation d'un site web est un élément important pour l'expérience utilis
 #### Résultats
 
 <p>
-    <img src="/reports/assets/optimized-navigation/Wave.jpg" alt="Rapport Wave" width="400">
+    <a href="https://wave.webaim.org/report#/https://build-optimized-navigation--freddy-escobar-4-05112020.netlify.app/">
+        <img src="/reports/assets/optimized-navigation/Wave.jpg" alt="Rapport Wave" width="400">
+    </a>
 </p>
 
 #### Comparaison
@@ -408,7 +420,9 @@ La localisation d'un site web et ce qui permet de définir dans quelle(s) langue
 </p>
 
 <p>
-    <img src="/reports/assets/localization/Wave.jpg" alt="Rapport Wave" width="400">
+    <a href="https://wave.webaim.org/report#/https://build-localization--freddy-escobar-4-05112020.netlify.app/">
+        <img src="/reports/assets/localization/Wave.jpg" alt="Rapport Wave" width="400">
+    </a>
 </p>
 
 #### Comparaison
@@ -442,7 +456,9 @@ Nous sommes maintenant en mesure de comparer les performances et l'accessibilit�
 </p>
 
 <p>
-    <img src="/reports/assets/master/Wave.jpg" alt="Rapport Wave" width="400">
+    <a href="https://wave.webaim.org/report#/https://freddy-escobar-4-05112020.netlify.app/">
+        <img src="/reports/assets/master/Wave.jpg" alt="Rapport Wave" width="400">
+    </a>
 </p>
 
 ### Comparaison
